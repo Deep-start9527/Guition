@@ -6,3 +6,4 @@ managed_components/
 __pycache__/
 *.log
 test/
+tests/
