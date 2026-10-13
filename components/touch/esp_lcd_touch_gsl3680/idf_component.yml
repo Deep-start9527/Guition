@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: MIT
+version: "0.1.0"
+description: "GSL3680 I2C touch driver with the Guition JC8012P4A1C firmware"
+# Controller firmware provenance is documented in NOTICE.
+license: "MIT"
+
+dependencies:
+  idf: ">=6.1.0,<6.2.0"
+  espressif/esp_lcd_touch:
+    public: true
+    version: "==1.2.1"
+tags:
+  - lcd
+  - touch
+  - gsl3680
+files:
+  exclude:
+    - "tests/**/*"
+    - "**/build/**"
+    - "**/managed_components/**"
+    - "**/build-*/**/*"
+    - "**/build_*/**/*"
+    - "**/dist/**/*"
+    - "**/*.log"

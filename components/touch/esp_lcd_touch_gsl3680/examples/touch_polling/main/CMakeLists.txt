@@ -1,0 +1,3 @@
+# SPDX-License-Identifier: MIT
+idf_component_register(SRCS "touch_polling.c" INCLUDE_DIRS "."
+                       PRIV_REQUIRES esp_driver_i2c)

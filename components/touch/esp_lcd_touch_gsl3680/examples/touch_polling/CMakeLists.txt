@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: MIT
+cmake_minimum_required(VERSION 3.22)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(gsl3680_touch_polling)
